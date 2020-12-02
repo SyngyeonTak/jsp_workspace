@@ -13,7 +13,7 @@
 	String notice_id = request.getParameter("notice_id");
 	String sql = "delete from notice where notice_id = "+notice_id;
 
-	//삭제 후 완료 메시지 보여주고 list.jsp를 요청할 것!!
+	//삭제 후 완료 메시지 보여주고 list.jsp를 요청할 것
 	pstmt = con.prepareStatement(sql);
 	int result = pstmt.executeUpdate();
 
