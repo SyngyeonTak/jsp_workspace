@@ -5,7 +5,7 @@
 %>
 
 <%
-	//스크립틀릿 영역?!
+	//스크립틀릿 영역?!!!
 	int x = 3;
 	String driver="oracle.jdbc.driver.OracleDriver";
 	String user="user1104";
